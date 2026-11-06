@@ -472,6 +472,22 @@ html:has(.ac-home) {
   color: var(--mist);
 }
 
+.ac-home .join .join-email {
+  color: var(--linen);
+  font-family: var(--display);
+  margin-top: 28px;
+  font-size: clamp(20px, 3vw, 26px);
+  line-height: 1.35;
+}
+
+.ac-home .join .join-email a {
+  color: var(--linen);
+  -webkit-text-decoration-color: var(--brass);
+  text-decoration-color: var(--brass);
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
 .ac-home form.list {
   background: var(--linen);
   color: var(--sapphire);
